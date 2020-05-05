@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\TYH\Andorid\ServiceEntity\News</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/WebService.dll">
+      <publishTime>05/05/2020 17:59:39</publishTime>
+    </File>
+    <File Include="bin/WebService.pdb">
+      <publishTime>05/05/2020 17:59:39</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/05/2020 15:37:08</publishTime>
+    </File>
+    <File Include="WebService1.asmx">
+      <publishTime>05/02/2020 22:44:39</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

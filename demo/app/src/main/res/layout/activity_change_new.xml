@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangeNew">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF9800"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="返回" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="保存" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:gravity="center"
+                android:text="category"
+                android:textColor="#dc3023" />
+
+            <Button
+                android:id="@+id/pre"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@android:drawable/ic_media_rew" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@android:drawable/ic_media_ff" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/data"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:ems="10"
+            android:gravity="right"
+            android:inputType="textPersonName"
+            android:paddingRight="20dip"
+            android:text="Name"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="4dip"
+            android:background="#000000"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dip"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dip">
+
+            <Spinner
+                android:id="@+id/pic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/spinnerpic" />
+
+            <Spinner
+                android:id="@+id/category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/spinnerclass" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:lines="10"
+            android:text="Name"
+            android:textColor="#06AEC3" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

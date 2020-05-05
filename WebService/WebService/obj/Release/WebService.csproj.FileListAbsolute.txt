@@ -1,0 +1,7 @@
+E:\TYH\Andorid\WebService\WebService\WebService\bin\WebService.dll.config
+E:\TYH\Andorid\WebService\WebService\WebService\bin\WebService.dll
+E:\TYH\Andorid\WebService\WebService\WebService\bin\WebService.pdb
+E:\TYH\Andorid\WebService\WebService\WebService\obj\Release\WebService.csprojAssemblyReference.cache
+E:\TYH\Andorid\WebService\WebService\WebService\obj\Release\WebService.csproj.CoreCompileInputs.cache
+E:\TYH\Andorid\WebService\WebService\WebService\obj\Release\WebService.dll
+E:\TYH\Andorid\WebService\WebService\WebService\obj\Release\WebService.pdb

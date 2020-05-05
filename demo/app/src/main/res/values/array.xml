@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinnerclass">
+        <item>国内</item>
+        <item>国外</item>
+        <item>军事</item>
+        <item>科技</item>
+        <item>体育</item>
+    </string-array>
+    <string-array name="spinnerpic">
+        <item>t1.jpg</item>
+        <item>t2.png</item>
+        <item>t3.jpg</item>
+        <item>t4.jpg</item>
+    </string-array>
+</resources>
